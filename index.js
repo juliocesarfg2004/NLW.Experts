@@ -9,83 +9,83 @@ const perguntas = [
     correta: 0
   },
   {
-    pergunta: "Qual é o apelido do Ceará Sporting Club?",
+    pergunta: "Qual é o apelido oficial do Ceará Sporting Clube?",
     respostas: [
       "Leão do Pici",
-      "Vovô",
-      "Tigre",
+      "Galo da Serra",
+      "Kanal",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual foi o ano em que o Ceará Sporting Club conquistou sua primeira Copa do Nordeste?",
+    respostas: [
+      "2014",
+      "2015",
+      "2020",
     ],
     correta: 1
   },
   {
-    pergunta: "Quantos títulos estaduais o Ceará possui até o momento?",
+    pergunta: "Qual é o estádio utilizado pelo Ceará como seu campo principal?",
     respostas: [
-      "38",
-      "22",
-      "15",
+      "Estádio Presidente Vargas",
+      "Arena Castelão",
+      "Estádio Domingão",
     ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual é o estádio que o Ceará manda seus jogos?",
-    respostas: [
-      "Castelão",
-      "Presidente Vargas",
-      "Arena das Dunas",
-    ],
-    correta: 0
+    correta: 1
   },
   {
     pergunta: "Quem é o maior artilheiro da história do Ceará?",
     respostas: [
       "Sérgio Alves",
       "Magno Alves",
-      "Iarley",
+      "Ricardinho",
     ],
     correta: 1
   },
   {
-    pergunta: "Em que divisão o Ceará disputou a Série A do Campeonato Brasileiro em 2021?",
+    pergunta: "Qual foi o adversário na primeira partida oficial do Ceará Sporting Clube?",
     respostas: [
-      "Série B",
-      "Série C",
-      "Série D",
+      "Fortaleza",
+      "Ferroviário",
+      "Tiradentes",
     ],
-    correta: 0
+    correta: 2
   },
   {
-    pergunta: "Qual é a mascote oficial do Ceará?",
+    pergunta: "Quem é considerado o ídolo eterno do Ceará Sporting Clube?",
     respostas: [
-      "Leão",
-      "Vovô",
-      "Tigre",
+      "Mota",
+      "Gildo",
+      "Fernando Baiano",
     ],
     correta: 1
   },
   {
     pergunta: "Quem é o técnico do Ceará no momento?",
     respostas: [
+      "Vagner Mancini",
       "Guto Ferreira",
-      "Enderson Moreira",
       "Lisca Doido",
     ],
     correta: 0
   },
   {
-    pergunta: "Quantas vezes o Ceará participou da Copa Sul-Americana até o meu conhecimento em janeiro de 2022?",
+    pergunta: "Em que ano o Ceará conquistou o primeiro acesso à Série A do Campeonato Brasileiro?",
     respostas: [
-      "2 vezes",
-      "4 vezes",
-      "6 vezes",
+      "2016",
+      "1992",
+      "2008",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual foi o ano da última conquista de um título nacional pelo Ceará?",
+    pergunta: "Quantos títulos estaduais o Ceará conquistou até o momento?",
     respostas: [
-      "1977",
-      "1994",
-      "2011",
+      "28",
+      "45",
+      "34",
     ],
     correta: 2
   },
