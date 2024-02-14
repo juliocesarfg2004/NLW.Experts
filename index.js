@@ -9,11 +9,11 @@ const perguntas = [
     correta: 0
   },
   {
-    pergunta: "Qual é o apelido oficial do Ceará Sporting Clube?",
+    pergunta: "Qual é a alcunha da torcida organizada do Ceará?",
     respostas: [
-      "Leão do Pici",
-      "Galo da Serra",
-      "Kanal",
+      "Gaviões da Fiel",
+      "Mancha Verde",
+      "Cearamor",
     ],
     correta: 2
   },
@@ -63,13 +63,13 @@ const perguntas = [
     correta: 1
   },
   {
-    pergunta: "Quem é o técnico do Ceará no momento?",
+    pergunta: "Qual foi o ano de inauguração do Centro de Treinamento do Ceará?",
     respostas: [
-      "Vagner Mancini",
-      "Guto Ferreira",
-      "Lisca Doido",
+      "2005",
+      "2010",
+      "2015",
     ],
-    correta: 0
+    correta: 1
   },
   {
     pergunta: "Em que ano o Ceará conquistou o primeiro acesso à Série A do Campeonato Brasileiro?",
@@ -87,7 +87,7 @@ const perguntas = [
       "45",
       "34",
     ],
-    correta: 2
+    correta: 1
   },
 ];
 
