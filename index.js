@@ -1,95 +1,97 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a linguagem de programação padronizada para desenvolvimento web?",
-      respostas: [
-        "Java",
-        "JavaScript",
-        "Python",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "var myVar;",
-        "variable myVar;",
-        "let myVar = 10;",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Compara valores sem levar em conta o tipo",
-        "Compara valores e tipos de dados",
-        "Concatena strings",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'querySelector' faz em JavaScript?",
-      respostas: [
-        "Seleciona elementos por classe",
-        "Seleciona elementos por ID",
-        "Seleciona elementos por tag",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como você adiciona um evento de clique a um elemento HTML em JavaScript?",
-      respostas: [
-        "addEventListener('hover', myFunction)",
-        "click(myFunction)",
-        "addEventListener('click', myFunction)",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-      respostas: [
-        "Exibir mensagens de erro no console",
-        "Imprimir informações no console",
-        "Definir variáveis no console",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que significa AJAX em JavaScript?",
-      respostas: [
-        "Assíncrono JavaScript e XML",
-        "ActiveX JavaScript",
-        "Aplicação Java para XML",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é um array em JavaScript?",
-      respostas: [
-        "Um tipo de dado para armazenar múltiplos valores",
-        "Um operador lógico",
-        "Um método de string",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você declara uma função em JavaScript?",
-      respostas: [
-        "function myFunction()",
-        "var = function myFunction()",
-        "declare function myFunction()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Document Object Model, uma representação da estrutura do documento HTML",
-        "Data Object Model, um modelo de dados em JavaScript",
-        "Digital Object Management, uma biblioteca de gerenciamento de objetos digitais",
-      ],
-      correta: 0
-    },
-  ];
+  {
+    pergunta: "Em que ano o Ceará Sporting Club foi fundado?",
+    respostas: [
+      "1914",
+      "1962",
+      "1970",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o apelido do Ceará Sporting Club?",
+    respostas: [
+      "Leão do Pici",
+      "Vovô",
+      "Tigre",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quantos títulos estaduais o Ceará possui até o momento?",
+    respostas: [
+      "38",
+      "22",
+      "15",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o estádio que o Ceará manda seus jogos?",
+    respostas: [
+      "Castelão",
+      "Presidente Vargas",
+      "Arena das Dunas",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem é o maior artilheiro da história do Ceará?",
+    respostas: [
+      "Sérgio Alves",
+      "Magno Alves",
+      "Iarley",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Em que divisão o Ceará disputou a Série A do Campeonato Brasileiro em 2021?",
+    respostas: [
+      "Série B",
+      "Série C",
+      "Série D",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a mascote oficial do Ceará?",
+    respostas: [
+      "Leão",
+      "Vovô",
+      "Tigre",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem é o técnico do Ceará no momento?",
+    respostas: [
+      "Guto Ferreira",
+      "Enderson Moreira",
+      "Lisca Doido",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quantas vezes o Ceará participou da Copa Sul-Americana até o meu conhecimento em janeiro de 2022?",
+    respostas: [
+      "2 vezes",
+      "4 vezes",
+      "6 vezes",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual foi o ano da última conquista de um título nacional pelo Ceará?",
+    respostas: [
+      "1977",
+      "1994",
+      "2011",
+    ],
+    correta: 2
+  },
+];
+
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
