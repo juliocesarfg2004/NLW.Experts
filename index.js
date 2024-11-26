@@ -31,7 +31,7 @@ const perguntas = [
     respostas: [
       "Estádio Presidente Vargas",
       "Arena Castelão",
-      "Estádio Domingão",
+      "Estádio Maracanã",
     ],
     correta: 1
   },
@@ -49,7 +49,7 @@ const perguntas = [
     respostas: [
       "Fortaleza",
       "Ferroviário",
-      "Tiradentes",
+      "Juazeiro Empreendimentos",
     ],
     correta: 2
   },
